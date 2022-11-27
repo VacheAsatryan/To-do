@@ -1,0 +1,50 @@
+.todoo{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    width: 50%;
+    height: 7%;
+    display: flex;
+}
+.todooTitle{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: large;
+    color: #fff;
+}
+.containers{
+    width: 45%;
+    height: 100%;
+    background-color: snow;
+}
+
+.myInput, .myButton{
+    width: 100%;
+    height: 45px;
+    margin-top: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    }
+.myButton{
+    background:linear-gradient(45deg, blue,snow);
+    color: snow;
+}
+
+.box{
+    width: 100%;
+    padding: 30px;
+}
+.box li{
+    margin-top: 5px;
+    background-color: #fff;
+    font-size: 25px;
+    list-style-type: none;
+    padding: 5px;
+   border: 2px solid snow;
+    background:linear-gradient(45deg, blue,snow);
+    color: snow;
+
+}
